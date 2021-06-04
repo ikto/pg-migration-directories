@@ -1,0 +1,20 @@
+{
+    "name": "ikto/pg-migration-directories",
+    "type" : "library",
+    "description" : "The tool for installing/removing/upgrading/downgrading PgSQL schemas",
+    "license": "MIT",
+    "keywords": [],
+    "authors": [
+        {
+            "name" : "Maxim Polishchuk",
+            "email" : "mpolishchuck@ikto.net"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "symfony/finder": ">=3.4"
+    },
+    "autoload" : {
+        "psr-4" : { "IKTO\\PgMigrationDirectories\\" : ["src/"] }
+    }
+}
